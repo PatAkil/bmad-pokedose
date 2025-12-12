@@ -49,8 +49,8 @@ development_status:
 
   # Epic 2: Core Puzzle Grid
   epic-2: in-progress
-  2-1-create-game-state-management: in-progress
-  2-2-build-grid-layout-with-criteria-labels: backlog
+  2-1-create-game-state-management: review
+  2-2-build-grid-layout-with-criteria-labels: ready-for-dev
   2-3-implement-cell-selection: backlog
   2-4-display-cell-criteria-intersection: backlog
   2-5-implement-pokemon-placement-in-cells: backlog
