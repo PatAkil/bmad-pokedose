@@ -1,2 +1,2 @@
 // Shared domain types
-export {}
+export type { Pokemon, EvolutionStage } from './pokemon';
