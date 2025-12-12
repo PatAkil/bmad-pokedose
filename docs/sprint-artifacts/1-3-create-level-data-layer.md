@@ -1,6 +1,6 @@
 # Story 1.3: Create Level Data Layer
 
-Status: Ready for Review
+Status: done
 
 ## Story
 
@@ -416,12 +416,19 @@ None - implementation proceeded without issues.
 - Created Level TypeScript types (CriteriaType, Criteria, Level interfaces) in `src/types/level.ts`
 - Designed and implemented 9 hand-crafted levels with progressive difficulty:
   - Levels 1-3: Single-type criteria only (Grass/Poison/Bug, Water/Ice/Psychic, Bug/Flying/Poison)
-  - Levels 4-5: Introduces evolution criteria mixed with type criteria
+  - Levels 4-5: Introduces BOTH dual-type AND evolution criteria per AC #5
+    - Level 4: Grass/Poison dual-type row + evolution columns
+    - Level 5: Rock/Ground dual-type row + evolution columns
   - Levels 6-9: Includes moveset criteria (toxic, rest, earthquake, psychic, dreamEater, hyperBeam, thunderbolt)
 - All levels designed to be solvable with Gen 1 Pokemon (verified dual-type combinations exist for cross-type intersections)
 - Implemented helper functions following existing pokemonHelpers pattern
 - Added comprehensive unit tests covering all ACs (14 tests total)
-- All 58 tests pass, lint passes (0 errors), build succeeds
+- All 78 tests pass, lint passes (0 errors), build succeeds
+
+**Code Review Fixes (2025-12-12):**
+- Fixed AC #5 violation: Added dual-type criteria to levels 4 and 5
+- Updated test to verify BOTH dual-type AND evolution criteria (not just OR)
+- Verified all 9 levels remain solvable after changes
 
 ### File List
 
@@ -437,3 +444,4 @@ None - implementation proceeded without issues.
 |------|--------|--------|
 | 2025-12-12 | Story created via create-story workflow - comprehensive context for Level data layer implementation | SM Agent (Claude Opus 4.5) |
 | 2025-12-12 | Story implementation complete - 9 levels, types, helpers, tests all passing | Dev Agent (Claude Opus 4.5) |
+| 2025-12-12 | Code review fixes: Added dual-type criteria to levels 4-5 (AC #5), updated test to verify both dual-type AND evolution | Code Review (Claude Opus 4.5) |

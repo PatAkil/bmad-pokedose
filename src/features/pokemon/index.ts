@@ -1,2 +1,2 @@
 // Pokemon feature - pokemon data and selection
-export {}
+export { PokemonSprite } from './PokemonSprite';

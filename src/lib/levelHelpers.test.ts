@@ -92,12 +92,14 @@ describe('levelHelpers', () => {
       });
     });
 
-    it('levels 4-5 include evolution criteria', () => {
+    it('levels 4-5 include both dual-type AND evolution criteria', () => {
       [4, 5].forEach((id) => {
         const level = getLevelById(id);
         expect(level).toBeDefined();
         const allCriteria = [...level!.rows, ...level!.columns];
+        const hasDualType = allCriteria.some((c) => c.type === 'dual-type');
         const hasEvolution = allCriteria.some((c) => c.type === 'evolution');
+        expect(hasDualType).toBe(true);
         expect(hasEvolution).toBe(true);
       });
     });

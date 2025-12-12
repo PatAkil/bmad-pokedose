@@ -45,9 +45,9 @@
     "id": 4,
     "name": "Evolution Challenge",
     "rows": [
-      { "type": "type", "value": "fire" },
+      { "type": "dual-type", "value": ["grass", "poison"] },
       { "type": "type", "value": "water" },
-      { "type": "type", "value": "grass" }
+      { "type": "type", "value": "fire" }
     ],
     "columns": [
       { "type": "evolution", "value": "basic" },
@@ -59,9 +59,9 @@
     "id": 5,
     "name": "Ground Rules",
     "rows": [
+      { "type": "dual-type", "value": ["rock", "ground"] },
       { "type": "type", "value": "poison" },
-      { "type": "type", "value": "rock" },
-      { "type": "type", "value": "ground" }
+      { "type": "type", "value": "rock" }
     ],
     "columns": [
       { "type": "evolution", "value": "basic" },
