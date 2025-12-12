@@ -1,6 +1,6 @@
 # Story 1.1: Initialize Project with Development Environment
 
-Status: Ready for Review
+Status: done
 
 ## Story
 
@@ -73,7 +73,7 @@ so that **I have a consistent, modern development environment ready for building
 - [x] **Task 7: Create Configuration Files** (AC: #1, #6)
   - [x] Create `.env.example` with VITE_SPRITE_CDN_URL placeholder
   - [x] Update `tsconfig.json` with path aliases if needed
-  - [x] Create/verify `.eslintrc.cjs` configuration
+  - [x] Create/verify `eslint.config.js` configuration (flat config format)
   - [x] Create `.prettierrc` for consistent formatting
 
 - [x] **Task 8: Final Verification** (AC: #6)
@@ -133,7 +133,7 @@ bmad-pokedex/
 ├── components.json              # shadcn/ui config
 ├── .env.example
 ├── .gitignore
-├── .eslintrc.cjs
+├── eslint.config.js              # ESLint flat config
 ├── .prettierrc
 │
 ├── public/
@@ -259,12 +259,13 @@ Claude Opus 4.5 (claude-opus-4-5-20251101)
 - Created .env.example with VITE_SPRITE_CDN_URL placeholder
 - Created .prettierrc for consistent formatting
 - Updated ESLint config to handle test files and shadcn component warnings
-- All acceptance criteria verified: dev server, build, tests (2 passing), lint all successful
+- All acceptance criteria verified: dev server, build, tests (4 passing), lint all successful
 
 ### File List
 
 **New files created:**
 - package.json
+- package-lock.json
 - vite.config.ts
 - tsconfig.json
 - tsconfig.app.json
@@ -275,6 +276,7 @@ Claude Opus 4.5 (claude-opus-4-5-20251101)
 - .gitignore
 - .env.example
 - .prettierrc
+- README.md
 - src/main.tsx
 - src/App.tsx
 - src/index.css
@@ -282,6 +284,7 @@ Claude Opus 4.5 (claude-opus-4-5-20251101)
 - src/routes/Home.tsx
 - src/routes/Home.test.tsx
 - src/routes/Game.tsx
+- src/routes/Game.test.tsx
 - src/components/ui/button.tsx
 - src/lib/utils.ts
 - src/test/setup.ts
@@ -292,6 +295,7 @@ Claude Opus 4.5 (claude-opus-4-5-20251101)
 - src/features/validation/index.ts
 - src/features/game/index.ts
 - src/types/index.ts
+- src/data/.gitkeep
 - public/vite.svg
 - src/assets/react.svg
 
@@ -300,3 +304,4 @@ Claude Opus 4.5 (claude-opus-4-5-20251101)
 | Date | Change | Author |
 |------|--------|--------|
 | 2025-12-12 | Initial story implementation - Project initialized with all required tooling | Dev Agent (Claude Opus 4.5) |
+| 2025-12-12 | Code Review: Added src/data/.gitkeep, Game.test.tsx, updated File List, fixed eslint config reference | Code Review (Claude Opus 4.5) |
