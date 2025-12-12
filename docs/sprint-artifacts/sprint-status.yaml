@@ -40,15 +40,15 @@ story_location: docs/sprint-artifacts
 
 development_status:
   # Epic 1: Project Foundation & Game Data
-  epic-1: in-progress
+  epic-1: done
   1-1-initialize-project-with-development-environment: done
   1-2-create-pokemon-data-layer: done
   1-3-create-level-data-layer: done
   1-4-integrate-pokemon-sprites: done
-  epic-1-retrospective: optional
+  epic-1-retrospective: done
 
   # Epic 2: Core Puzzle Grid
-  epic-2: backlog
+  epic-2: in-progress
   2-1-create-game-state-management: backlog
   2-2-build-grid-layout-with-criteria-labels: backlog
   2-3-implement-cell-selection: backlog
