@@ -43,7 +43,7 @@ development_status:
   epic-1: in-progress
   1-1-initialize-project-with-development-environment: done
   1-2-create-pokemon-data-layer: done
-  1-3-create-level-data-layer: ready-for-dev
+  1-3-create-level-data-layer: review
   1-4-integrate-pokemon-sprites: ready-for-dev
   epic-1-retrospective: optional
 

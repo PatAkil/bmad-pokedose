@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Type Basics",
+    "rows": [
+      { "type": "type", "value": "grass" },
+      { "type": "type", "value": "poison" },
+      { "type": "type", "value": "bug" }
+    ],
+    "columns": [
+      { "type": "type", "value": "grass" },
+      { "type": "type", "value": "poison" },
+      { "type": "type", "value": "bug" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Water World",
+    "rows": [
+      { "type": "type", "value": "water" },
+      { "type": "type", "value": "ice" },
+      { "type": "type", "value": "psychic" }
+    ],
+    "columns": [
+      { "type": "type", "value": "water" },
+      { "type": "type", "value": "ice" },
+      { "type": "type", "value": "psychic" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Aerial Combat",
+    "rows": [
+      { "type": "type", "value": "bug" },
+      { "type": "type", "value": "flying" },
+      { "type": "type", "value": "poison" }
+    ],
+    "columns": [
+      { "type": "type", "value": "bug" },
+      { "type": "type", "value": "flying" },
+      { "type": "type", "value": "poison" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Evolution Challenge",
+    "rows": [
+      { "type": "type", "value": "fire" },
+      { "type": "type", "value": "water" },
+      { "type": "type", "value": "grass" }
+    ],
+    "columns": [
+      { "type": "evolution", "value": "basic" },
+      { "type": "evolution", "value": "stage1" },
+      { "type": "evolution", "value": "stage2" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ground Rules",
+    "rows": [
+      { "type": "type", "value": "poison" },
+      { "type": "type", "value": "rock" },
+      { "type": "type", "value": "ground" }
+    ],
+    "columns": [
+      { "type": "evolution", "value": "basic" },
+      { "type": "evolution", "value": "stage1" },
+      { "type": "type", "value": "ground" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Move Mastery",
+    "rows": [
+      { "type": "type", "value": "water" },
+      { "type": "type", "value": "poison" },
+      { "type": "type", "value": "bug" }
+    ],
+    "columns": [
+      { "type": "moveset", "value": "toxic" },
+      { "type": "moveset", "value": "rest" },
+      { "type": "type", "value": "flying" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Seismic Power",
+    "rows": [
+      { "type": "type", "value": "rock" },
+      { "type": "type", "value": "fire" },
+      { "type": "type", "value": "normal" }
+    ],
+    "columns": [
+      { "type": "moveset", "value": "earthquake" },
+      { "type": "moveset", "value": "toxic" },
+      { "type": "type", "value": "flying" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Mind Games",
+    "rows": [
+      { "type": "type", "value": "water" },
+      { "type": "type", "value": "psychic" },
+      { "type": "type", "value": "ghost" }
+    ],
+    "columns": [
+      { "type": "moveset", "value": "toxic" },
+      { "type": "moveset", "value": "psychic" },
+      { "type": "moveset", "value": "dreamEater" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Dragon's Peak",
+    "rows": [
+      { "type": "type", "value": "fire" },
+      { "type": "type", "value": "ice" },
+      { "type": "type", "value": "dragon" }
+    ],
+    "columns": [
+      { "type": "moveset", "value": "hyperBeam" },
+      { "type": "moveset", "value": "thunderbolt" },
+      { "type": "type", "value": "flying" }
+    ]
+  }
+]
